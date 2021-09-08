@@ -39,7 +39,10 @@ Updates the recipe in the database, respond with the 204 (No Content) status cod
 If the recipe is not found in the database, respond with the 404 (Not Found) status code.
 If the user is not the author of the recipe, respond with the 403 (Forbidden) status code.
 
-DELETE /api/recipe{id} (Only authenticated user, owner of recipe)
+DELETE /api/recipe/{id} (Only authenticated user, owner of recipe)
 Delete the recipe from the database, respond with the 204 (No Content) status code.
 If the recipe is not found in the database, respond with the 404 (Not Found) status code.
 If the user is not the author of the recipe, respond with the 403 (Forbidden) status code.
+
+DELETE /api/recipe/delete (Only Admin role permission)
+Removes all recipes from the database
