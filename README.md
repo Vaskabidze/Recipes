@@ -2,7 +2,7 @@
 A Spring boot multi-user web service that allows storing, retrieving, updating, and deleting recipes.
 
 Technology stack:
-1) Spring Boot, Security, MVC
+1) Spring Boot, Data, Security, MVC
 2) Hibernate, H2 Database
 3) Apache Tomcat
 3) Rest API
