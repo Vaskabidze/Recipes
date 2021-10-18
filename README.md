@@ -6,8 +6,9 @@ Technology stack:
 2) Hibernate, H2 Database
 3) Apache Tomcat
 3) Rest API
-4) JSON
-5) Project Lombok
+4) Thymeleaf
+5) JSON
+6) Project Lombok
 
 Multi-user application that allows you to store recipes in a database. 
 Data exchange takes place via REST API. User registration and loading / updating of the recipe occurs by sending a JSON file.
